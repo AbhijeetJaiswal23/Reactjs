@@ -1,0 +1,25 @@
+.Search-container{
+
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.Searchbar-text{
+
+    padding: 8px 15px;
+    font-size: 15px;
+    border-width: 0;
+    background-color: rgba(13, 83, 23, 0.533);
+    color: #e7e9e0;
+
+    border-radius: 50px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+    
+}
+.Searchbar-text::placeholder{
+    color: #e7e9e0;
+}
+.Searchbar-text:focus{
+    outline: none;
+}

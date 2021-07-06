@@ -1,0 +1,25 @@
+.NamepadContainer{
+
+    margin: 10px 15px;
+    min-width: 75px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border-width:0 ;
+    background-color: rgb(24, 168, 24);
+    transition: .35s;
+}
+.NamepadContainer:hover{
+    
+    background-color: green;
+
+}
+.Namepad-txt{
+
+    font-weight: 400;
+    color: white ;
+    
+}
+
+a{
+    text-decoration: none;
+}
